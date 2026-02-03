@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Voting System - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Online Voting System</h2>
+
+    <select id="userType">
+      <option value="voter">Voter</option>
+      <option value="admin">Admin</option>
+    </select>
+
+    <input type="text" id="userId" placeholder="User ID">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+
+    <div class="msg" id="msg"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
